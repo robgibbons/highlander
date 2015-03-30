@@ -1,7 +1,7 @@
 # Highlander
 A launcher which allows only one instance of any program it launches.
 
-## There can be only one
+### There can be only one
 When invoked, a highlander launcher will look for an existing instance of the program provided, then bring that program into focus using **wmctrl**. Highlander will only launch a new instance of the program after failing to locate any existing instances.
 
 #### Why?
