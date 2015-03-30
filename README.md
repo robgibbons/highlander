@@ -1,4 +1,4 @@
-# highlander
+# Highlander
 A launcher that allows only one instance of the program it launches.
 
 ### There can be only one
