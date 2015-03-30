@@ -2,6 +2,6 @@
 A launcher that allows only one instance of programs it launches.
 
 ### There can be only one
-When a highlander launcher is clicked, highlander first looks for existing instances of that program, then brings them into focus using wmctrl. Highlander will only launch a new program instance after failing to locate existing instances. 
+When invoked, a launcher looks for existing instances of the selected program, and brings them into focus using wmctrl. Highlander will only a launch new program after failing to locate any existing instances. 
 
-This basically upgrades launcher icons to window switchers, similar to the Dock on Mac OSX, while preventing multiple copies of a program from consuming precious resources. This is especially important in XFCE, where I use highlander in every icon in my top panel. Additional copies of any given program can always be started via other means, such as through the Applications menu or the Terminal. 
+This basically upgrades normal launcher icons into window switchers, similar to the behavior of the Dock on Mac OSX, which prevents redundant copies of any program from eating up resources. This is especially important in XFCE, where I use highlander for every program icon in my top panel. If necessary, additional copies of any program can always be started via other means, such as through the Applications menu or the Terminal. 
