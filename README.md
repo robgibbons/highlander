@@ -4,7 +4,7 @@ A launcher which allows only one instance of any program it launches.
 ### There can be only one
 Highlander will only launch a new program after failing to locate any existing instances. 
 
-Highlander transforms any launcher icon into a window switcher button, similar in function to Dock icons in Mac OS X. Programs only launch on the first time you click. Additional clicks bring the program to focus. 
+Highlander transforms any launcher icon into a window switcher button, similar to the basic functionality of Dock icons in Mac OS X. Programs only launch on the first time you click. Additional clicks bring the program to focus. 
 
 In addition to providing a simple window switching interface, highlander helps to prevent redundant instances of programs, which is especially useful for low-resource environments such as XFCE. 
 
