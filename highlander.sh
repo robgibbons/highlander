@@ -15,6 +15,6 @@ then
 	# Bring to focus existing window
 	wmctrl -a $windowkey
 else
-  # Launch new program instance
+ 	# Launch new program instance
 	eval "$launchcmd &"
 fi
