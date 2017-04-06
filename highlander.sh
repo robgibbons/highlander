@@ -13,7 +13,7 @@ launchcmd=$2 # Program launch command (string)
 if wmctrl -l | grep "$windowkey" > /dev/null;
 then
 	# Bring to focus existing window
-	wmctrl -a $windowkey
+	wmctrl -a "$windowkey"
 else
  	# Launch new program instance
 	eval "$launchcmd &"
